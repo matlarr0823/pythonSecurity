@@ -13,3 +13,6 @@ https://www.python.org.ar
 
 https://pyscript.net/
 
+https://pypi.org/project/Flask/
+
+https://www.djangoproject.com/
