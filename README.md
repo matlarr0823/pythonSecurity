@@ -11,3 +11,5 @@ https://thonny.org/
 
 https://www.python.org.ar
 
+https://pyscript.net/
+
