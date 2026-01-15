@@ -1,10 +1,10 @@
-temperaturas=["0", "15", "25", "30", "40"]
+vidas=[3, 1, 0]
 
-grado=input("Ingrese la temperatura: ")
+cantidad=int(input("Ingrese cantidad de vidas: "))
 
-if grado < 15:
-    print("hace frio")
-elif grado >= 15 and grado <= 25:
-    print("Clima agradable")
+if cantidad == 0:
+    print("Game Over")
+elif cantidad == 1
+    print("Te esta quedando una vida")
 else:
-    print("Hace calor")
+    print("Te quedan varias vidas")
