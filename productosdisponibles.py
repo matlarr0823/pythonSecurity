@@ -1,4 +1,4 @@
-productos=["mouse", "teclado", "mmonitor"]
+productos=["mouse", "teclado", "monitor"]
 
 nombre=input("Ingrese el producto a comprar: ")
 
