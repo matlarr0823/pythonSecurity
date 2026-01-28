@@ -1,0 +1,18 @@
+precio=int(input("Ingrese el precio del producto: "))
+tieneDescuento=bool(int(input("¿El producto tiene descuento? (1 para sí, 0 para no): ")))
+
+def calcular_descuento(pprecio, ptieneDescuento):
+
+    if tieneDescuento:
+        descuento = pprecio * 0.10  # Aplica un 20% de descuento
+        precio_final = pprecio - descuento
+    else:
+        precio_final = pprecio
+
+    return precio_final
+
+resultado = calcular_descuento(precio, tieneDescuento)
+print(f"El precio final es: {resultado}")  # Debería imprimir: El
+
+# resultado = calcular_descuento(100.0, False)
+# print(f"El precio final es: {resultado}")  # Debería imprimir: El
